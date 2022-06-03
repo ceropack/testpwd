@@ -11,6 +11,7 @@ const PORT = process.env.PORT||8080
 
 app.use(morgan('tiny'));
 
+
 app.use(bodyparser.urlencoded({extended:true}))
 
 //app.set("views",path.resolve(__dirname,"view/ejs"))
